@@ -1,6 +1,6 @@
 # selftest-coding-guideline
 
-Coding guideline for SelfTest project.
+SelfTest 프로젝트를 위한 코딩 가이드라인입니다.
 
 ## 개발 툴
 
@@ -33,7 +33,7 @@ Coding guideline for SelfTest project.
 
 - 마찬가지로 통일된 규격은 없습니다. 하지만 가독성을 위해서 통일하는게 좋습니다.
 - https://richone.tistory.com/26 참고
-- 제목에 붙는 커밋 타입 참고: https://siyoon210.tistory.com/56
+- **제목 앞에 붙는 커밋 타입 양식 통일**: https://siyoon210.tistory.com/56
 - **완전히 따르지 않아도 됨.** 한국어 상관 없음. 내용은 뭐 했는지만 대충 적어도 됨.
 - 단, **현재형으로 적어주세요.**
 - 커밋은 **작은 단위로 꾸준히** 할수록 좋습니다. (그 시점으로 돌아가는 데에도 유용)
@@ -66,3 +66,7 @@ feat: 로그인 기능 추가
 
 * 저쩌구
 ```
+
+### 풀 리퀘스트 작성법
+
+https://brunch.co.kr/@anonymdevoo/9 참고
