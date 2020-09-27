@@ -35,7 +35,7 @@ SelfTest 프로젝트를 위한 코딩 가이드라인입니다.
 - https://richone.tistory.com/26 참고
 - **제목 앞에 붙는 커밋 타입 양식 통일**: https://siyoon210.tistory.com/56
 - **완전히 따르지 않아도 됨.** 한국어 상관 없음. 내용은 뭐 했는지만 대충 적어도 됨.
-- 단, **현재형으로 적어주세요.**
+- 단, **현재형으로 적어주세요.** (명령조면 좋음)
 - 커밋은 **작은 단위로 꾸준히** 할수록 좋습니다. (그 시점으로 돌아가는 데에도 유용)
 - push하기 전까지는 이미 커밋한 메세지도 수정할 수 있으니 참고! (깃크라켄 amend 기능)
 - 영어 예시:
@@ -47,7 +47,7 @@ More detailed explanatory text, if necessary. Wrap it to about 72
 characters or so. ... (생략)
 ```
 
-- 한국어 예시: https://tttsss77.tistory.com/58
+- 한국어 예시: https://tttsss77.tistory.com/58, https://djkeh.github.io/articles/How-to-write-a-git-commit-message-kor/
 
 ```
 fix: 버그 픽스
@@ -58,7 +58,11 @@ fix: 버그 픽스
 ```
 feat: 로그인 기능 추가
 
-메인 페이지에서 로그인 기능을 추가한다.
+메인 페이지에서 로그인 기능을 추가한다. 어떻게 문제를 해결했는지 설명하기보다는 왜 이런 변화를 만들었는가에 집중한다. ("어떻게"는 코드가 설명한다.)
+
+이 변경으로 인해 나타나는 부작용이나 직관적이지 않은 결과가 나타나는가?
+
+이 내용을 여기에서 설명한다.
 
 추가로 말할 내용 blah blah이다.
 
